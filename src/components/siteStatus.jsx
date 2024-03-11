@@ -117,7 +117,7 @@ const SiteStatus = ({ siteData, days, status }) => {
                         : `最近 ${days} 天内可用率 ${site.average}%`}
                     </div>
                     <div className="day">
-                      {site.daily[site.daily.length - 1].date.format(
+                      {site.daily[site.daily.length - 60].date.format(
                         "YYYY-MM-DD"
                       )}
                     </div>
