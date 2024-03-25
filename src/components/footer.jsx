@@ -34,6 +34,14 @@ const Footer = () => {
           &nbsp;接口&nbsp;|&nbsp;检测频率 5 分钟
         </p>
         <p>
+          基于&nbsp;
+          <CustomLink to="https://github.com/imsyy" text="imsyy" />
+          的开源项目并遵循
+          <CustomLink to="https://opensource.org/licenses/MIT" text="MIT许可协议" />
+        </p>
+
+
+        <p>
           Copyright&nbsp;&copy;&nbsp;2024&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
           <CustomLink to="https://101jc.com/" text="旅者Bin" />
